@@ -16,8 +16,8 @@ GOOGLE_CREDENTIAL=xxxxxxxxxxx.apps.googleusercontent.com
 Now you must change to:
 
 ```
-GOOGLE_CLIENT_ID=782881680719-6ngc89825c8ot3ocoo0k8veir0jbsdk3.apps.googleusercontent.com
-GOOGLE_SECRET=VrL2BD5DVEfCoROVsEW53s4G
+GOOGLE_CLIENT_ID=yyyyyyyyyyy.apps.googleusercontent.com
+GOOGLE_SECRET=XXXXX
 GOOGLE_CALLBACK_URL=http://localhost:8080/auth/google/callback
 ```
 
