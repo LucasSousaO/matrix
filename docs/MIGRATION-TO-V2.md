@@ -16,9 +16,9 @@ GOOGLE_CREDENTIAL=xxxxxxxxxxx.apps.googleusercontent.com
 Now you must change to:
 
 ```
-GOOGLE_CLIENT_ID=yyyyyyyyyyy.apps.googleusercontent.com
-GOOGLE_SECRET=XXXX
-GOOGLE_CALLBACK_URL=http://MY-DOMAIN/auth/google/callback
+GOOGLE_CLIENT_ID=782881680719-6ngc89825c8ot3ocoo0k8veir0jbsdk3.apps.googleusercontent.com
+GOOGLE_SECRET=VrL2BD5DVEfCoROVsEW53s4G
+GOOGLE_CALLBACK_URL=http://localhost:8080/auth/google/callback
 ```
 
 To obtain the Google client id and secret just follow [this step by step](./GOOGLE-CREDENTIAL-STEP-BY-STEP.md).
@@ -30,7 +30,7 @@ In the callback URL you must put the domain where the project is hosted, followe
 Now a session control is done to support Google authentication on the backend, you can change the secret and duration of the session by the environment variables:
 
 ```
-COOKIE_SESSION_SECRET=nebuchadnezzar
+COOKIE_SESSION_SECRET=ssvp2020
 COOKIE_SESSION_MAX_AGE=2592000000
 ```
 These values ​​are not required. The default values ​​are `matrix-session` and` 30 days` respectively
@@ -39,5 +39,5 @@ These values ​​are not required. The default values ​​are `matrix-sessio
 It's now possible to add domains from users' emails to restrict access through the environment variable:
 **Attention:** When you did not provide the `WHITELIST_DOMAINS` your matrix will be open for everyone use. Be sure that what you want
 ```
-WHITELIST_DOMAINS=["resultadosdigitais.com.br", "matrix.com"]
+WHITELIST_DOMAINS=["gmail.com", "hotmail.com.br"]
 ```

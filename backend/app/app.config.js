@@ -31,8 +31,8 @@ export function getSessionConfig() {
 
 export function getAuthConfig() {
   const defaultAuthStrategy = "google";
-  const clientID = process.env.GOOGLE_CLIENT_ID || "XXXX";
-  const clientSecret = process.env.GOOGLE_SECRET || "XXXX";
+  const clientID = process.env.GOOGLE_CLIENT_ID || "782881680719-6ngc89825c8ot3ocoo0k8veir0jbsdk3.apps.googleusercontent.com";
+  const clientSecret = process.env.GOOGLE_SECRET || "VrL2BD5DVEfCoROVsEW53s4G";
   const callbackURL =
     process.env.GOOGLE_CALLBACK_URL ||
     "http://localhost:8080/auth/google/callback";
