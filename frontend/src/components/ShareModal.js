@@ -15,7 +15,7 @@ const ShareModal = ({ open, onClose }) => {
 
   return (
     <Dialog open={open} onClose={onClose}>
-      <DialogTitle id="alert-dialog-title">Share room link</DialogTitle>
+      <DialogTitle id="alert-dialog-title">Compartilhar link</DialogTitle>
       <DialogContent>
         <TextField
           id="outlined-adornment-password"

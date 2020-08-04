@@ -33,8 +33,8 @@ const BaseMeetingSettings = ({
     <Grid item>
       <Tooltip title={`${videoEnabled ? "Disable" : "Enable"} Video`}>
         <Checkbox
-          icon={<VideocamOff fontSize="large" />}
-          checkedIcon={<Videocam fontSize="large" />}
+          icon={<VideocamOff fontSize="small" />}
+          checkedIcon={<Videocam fontSize="small" />}
           onChange={onVideoEnabledChange}
           checked={videoEnabled}
         />
