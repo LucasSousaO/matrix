@@ -68,7 +68,7 @@ const MenuOffice = ({
           <SearchIcon />
         </div>
         <InputBase
-          placeholder="Search…"
+          placeholder="Pesquisar..."
           classes={{
             root: classes.inputRoot,
             input: classes.inputInput

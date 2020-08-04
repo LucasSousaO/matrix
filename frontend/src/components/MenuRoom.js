@@ -26,7 +26,7 @@ const MenuRoom = ({
     />
     <Tooltip title="Share room link">
       <IconButton
-        aria-label="Share room link"
+        aria-label="Compartilhar Link"
         aria-controls="menu-appbar"
         onClick={onShare}
         color="inherit"
@@ -36,7 +36,7 @@ const MenuRoom = ({
     </Tooltip>
     <Tooltip title="Exit room">
       <IconButton
-        aria-label="Exit room"
+        aria-label="Sair da sala"
         aria-controls="menu-appbar"
         onClick={onExitRoom}
         color="inherit"
