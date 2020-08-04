@@ -12,7 +12,7 @@ const GoogleButton = ({ isDark }) => (
     tabIndex={0}
     href="/auth/google"
   >
-    Sign in with Google
+    Login com o Google
   </a>
 );
 

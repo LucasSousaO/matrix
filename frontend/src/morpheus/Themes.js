@@ -48,14 +48,14 @@ export default {
   [THEMES.light]: createMuiTheme({
     palette: {
       primary: blue,
-      secondary: pink,
+      secondary: green,
       background: { default: "#e1f5fe" }
     }
   }),
   [THEMES.dark]: createMuiTheme({
     palette: {
       primary: blue,
-      secondary: pink,
+      secondary: green,
       type: "dark"
     }
   })
