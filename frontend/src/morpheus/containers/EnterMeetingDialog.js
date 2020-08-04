@@ -52,10 +52,10 @@ const EnterMeetingDialog = ({ open, onClose, onConfirm, title }) => {
       <Divider />
       <DialogActions>
         <Button onClick={onClose} color="primary">
-          Cancel
+          Cancelar
         </Button>
         <Button onClick={onConfirm} color="primary" autoFocus>
-          Enter
+          Entrar
         </Button>
       </DialogActions>
     </Dialog>
