@@ -7,16 +7,16 @@ const roomFilePath = "../file/matrix.room.web.json";
 //
 const createRoomFileSync = () => {
   const niceNames = [
-    "The Dock",
-    "Nebuchadnezzar",
-    "Logos",
-    "Osiris",
-    "Icarus",
-    "Caduceus",
-    "Brahma",
-    "Novalis",
-    "Vigilant",
-    "Zion",
+    "Espera",
+    "Conferência Santa Maria Goretti",
+    "Conferência São Cristóvão",
+    "Conferência São Paulo da Cruz",
+    "Conselho Central São Domingos Sávio",
+    "Conferência Santa Madalena",
+    "Conferência Santa Margarida",
+    "Conferência Nossa Senhora do Rosário",
+    "Conselho Particular Nossa Senhora do Rosário",
+    "Conferência Comissão de Jovens",
   ];
 
 
