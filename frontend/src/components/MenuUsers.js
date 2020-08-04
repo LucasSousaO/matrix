@@ -55,7 +55,7 @@ const MenuUsers = ({
   const commitSearch = debounce(onChangeFilter, 300);
 
   return (
-    <List subheader={<ListSubheader>Users Online</ListSubheader>}>
+    <List subheader={<ListSubheader>Usuários Online</ListSubheader>}>
       <div className={classes.search}>
         <div className={classes.searchIcon}>
           <SearchIcon />
