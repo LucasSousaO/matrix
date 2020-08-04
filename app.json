@@ -7,11 +7,11 @@
   "env": {
     "GOOGLE_CLIENT_ID": {
       "description": "Google Client Id to the OAuth authentication",
-      "value": "xxxxxxx.apps.googleusercontent.com"
+      "value": "782881680719-6ngc89825c8ot3ocoo0k8veir0jbsdk3.apps.googleusercontent.com"
     },
     "GOOGLE_SECRET": {
       "description": "Google Secret to the OAuth authentication",
-      "value": "gXXXXXXXXXXXXXXss"
+      "value": "VrL2BD5DVEfCoROVsEW53s4G"
     },
     "GOOGLE_CALLBACK_URL": {
       "description": "The callback Url to the OAuth authentication",
