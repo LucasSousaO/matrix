@@ -7,7 +7,7 @@ import styles from "./index.module.css";
 const GoogleButton = ({ isDark }) => (
   <a
     role="button"
-    aria-label="Sign in with Google"
+    aria-label="Login com o Google"
     className={clsx(styles.GoogleButton, { [styles.GoogleButtonDark]: isDark })}
     tabIndex={0}
     href="/auth/google"
